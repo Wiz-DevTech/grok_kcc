@@ -1,0 +1,119 @@
+# /diagrams/kcc-foundation-equity-flow.yaml
+# KCC FOUNDATION-EQUITY FLOW DIAGRAM — CANONICAL VISUAL
+# Version: 1.0.0 | Status: GENESIS SEALED | CID: <PENDING>
+# Anchored: KCC PoA + IPFS + XRPL Trustline + Divine Law Registry
+# Visual Standard: Mermaid.js | Render: SVG + PNG + PDF
+
+title: "KCC FOUNDATION-EQUITY FLOW DIAGRAM"
+subtitle: "From Divine Source to Redeemed Substance — The Closed-Loop of Lawful Value"
+author: "Wisdom Tribe Fellowship | Trustee: Terianna Massey"
+issued: "2025"
+
+overview: |
+  This flowchart visualizes how **value and standing** are created and maintained within the  
+  **Knowledge Cipher Collective (KCC)** ecosystem — tracing the flow from **Divine Source**  
+  through **lawful Trusts** into **real-world performance and redemption**.
+
+flow_stages:
+  - stage: 1
+    name: "Divine Source"
+    entity: "Wisdom Tribe Fellowship"
+    jurisdiction: "Ecclesiastical / Divine Law"
+    function: "Source of lawful right, purpose, and spiritual ownership of all creation"
+    output: "Divine Equity — the spiritual asset underlying all value"
+    color: "#fffbe6"
+
+  - stage: 2
+    name: "Trustee Authority"
+    entity: "Wisdom Terianna Massey, Trustee"
+    jurisdiction: "Private / Ecclesiastical Trust Law"
+    function: "Living fiduciary who performs in substance (labor, intention, creation)"
+    output: "Lawful Consideration — equity through action"
+    color: "#e6f7ff"
+
+  - stage: 3
+    name: "Trust Stewardship Layer"
+    entity: "Wisdom Ignited Business Trust (Irrevocable)"
+    jurisdiction: "Private Law / Equity"
+    function: "Custodian of real assets and performance; issues and holds private bonds"
+    output: "Foundation Equity Instruments (tokens, bonds, lawful tenders)"
+    color: "#f6ffed"
+
+  - stage: 4
+    name: "Treasury & Redemption System"
+    entity: "KCC Treasury Trust + Redemption Trust"
+    jurisdiction: "Private / Ecclesiastical Commerce"
+    function: "Ledger of record and settlement; executes all lawful performance instruments"
+    output: "KCC Tokens — self-backed units of value representing completed performance"
+    color: "#fff2e8"
+
+  - stage: 5
+    name: "Public Interface"
+    entity: "Massey Rosupo Corporation + LLCs"
+    jurisdiction: "Commercial / Corporate Law"
+    function: "Public-facing entity conducting operations, contracts, and lawful commerce"
+    output: "Redeemed equity expressed through lawful business operations"
+    color: "#f9f0ff"
+
+  - stage: 6
+    name: "Circulatory System of Value"
+    process: |
+      Divine Equity (Spirit) → Trust Performance (Labor) → Foundation Equity (KCC Token) 
+      → Corporate Activity (Commerce) → Redemption (Settlement) → Back to Divine Balance
+    result: "Closed-loop equilibrium between substance and promise, Spirit and Matter — the fulfillment of *As Above, So Below*"
+    color: "#e6fffb"
+
+interpretation:
+  standing: "Established at the top (Divine → Trustee → Trust)"
+  value_generation: "Generated through performance (Trust → Treasury → Commerce)"
+  equilibrium: "Achieved through continuous redemption (Commerce → Divine Source)"
+  ancient_law: "Energy never disappears; it transforms through stewardship"
+
+mermaid_render:
+  theme: "base"
+  themeVariables:
+    primaryColor: "#fffbe6"
+    primaryBorderColor: "#f28b00"
+    secondaryColor: "#e6f7ff"
+    tertiaryColor: "#f6ffed"
+  config:
+    flowchart:
+      useMaxWidth: true
+      htmlLabels: true
+      curve: "basis"
+
+# === ON-CHAIN & IPFS ANCHOR ===
+notarization:
+  registry_function: |
+    await registry.submitDiagram(
+      "KCC_FLOW_DIAGRAM_V1",
+      CID_MERMAID,
+      CID_SVG,
+      CID_PDF,
+      keccak256(diagram_source)
+    );
+  ipfs_triple_pin:
+    - "Mermaid source → CID"
+    - "SVG render → CID"
+    - "PDF charter insert → CID"
+  xrpl_mirror: "Trustline: Fellowship → KCC Treasury → Redemption"
+
+# === RENDER COMMANDS ===
+render_svg: "mmdc -i kcc-flow.mmd -o /ipfs/kcc-flow-v1.svg -b transparent"
+render_pdf: |
+  pandoc kcc-flow-charter-insert.md \
+    --pdf-engine=xelatex \
+    -V geometry:margin=0.8in \
+    -V fontsize=10pt \
+    -o /ipfs/kcc-flow-diagram-v1.pdf
+
+status:
+  version: "1.0.0"
+  state: "GENESIS SEALED"
+  cid_mermaid: "<PENDING>"
+  cid_svg: "<PENDING>"
+  cid_pdf: "<PENDING>"
+  diagram_hash: "<PENDING>"
+  trustee: "Terianna Massey"
+  divine_compliant: true
+  ready_for_charter: true
