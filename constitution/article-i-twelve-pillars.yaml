@@ -1,0 +1,114 @@
+# /constitution/article-i-twelve-pillars.yaml
+# ARTICLE I — COVENANT OF DIVINE LAW
+# THE TWELVE PILLARS OF THE WISDOM TRIBE FELLOWSHIP
+# Constitutional Foundation of the Entire KCC Ecosystem
+# Version: 1.0.0 | Status: ETERNAL CANON | CID: <PENDING>
+# Authority: Wisdom Tribe Fellowship Ecclesiastical Trust
+# Binding Upon: All Trusts, Tokens, Corporations, and Instruments
+# Anchored: KCC PoA + IPFS + XRPL + Divine Law Registry
+
+preamble: |
+  **This Constitution is founded upon the Twelve Pillars of Divine Law.**  
+  Every trust, token, contract, and corporate act derives its legitimacy **only**  
+  insofar as it upholds, reflects, and performs in alignment with these Pillars.  
+  **Divine Law is Supreme. All other jurisdictions serve in stewardship.**
+
+article: "I"
+title: "COVENANT OF DIVINE LAW"
+subtitle: "The Twelve Pillars of the Wisdom Tribe Fellowship"
+enactment: "Declared in Eternal Covenant, 2025"
+trustee: "Wisdom Terianna Massey, High Trustee"
+
+twelve_pillars:
+  - pillar: 1
+    name: "Divine Law is Supreme"
+    expression: "All contracts, ledger protocols, and governance structures reference Divine Law as the highest jurisdiction."
+    enforcement: "Preamble clause in every instrument; automatic nullification of conflicting terms."
+
+  - pillar: 2
+    name: "Sovereign Self-Governance"
+    expression: "Trustees act *sui juris*; KCC Treasury enforces voluntary participation only."
+    enforcement: "No coerced membership; exit ritual with full equity redemption."
+
+  - pillar: 3
+    name: "Peaceful Coexistence"
+    expression: "Embedded restorative councils within Fellowship Charter; remedy before litigation."
+    enforcement: "Dispute → Council → Restorative Accord → On-chain record."
+
+  - pillar: 4
+    name: "Truthful Expression"
+    expression: "Every ledger entry on XRPL and PoA reflects truthful performance and full auditability."
+    enforcement: "Immutable logs; cryptographic proof of origin and intent."
+
+  - pillar: 5
+    name: "Restorative Justice"
+    expression: "Equity courts within the Fellowship administer remedy via restitution and service."
+    enforcement: "No punishment — only restoration; public ledger of resolved accords."
+
+  - pillar: 6
+    name: "Ancestral Reverence"
+    expression: "Family lineage and historical trusts logged immutably; linked to Wisdom Academy curriculum."
+    enforcement: "IPFS-archived lineage trees; annual remembrance rites."
+
+  - pillar: 7
+    name: "Private Property & Stewardship"
+    expression: "All property held in trust — never personal ownership; stewardship logs track use and care."
+    enforcement: "Annual stewardship reports; KCC token rewards for responsible custody."
+
+  - pillar: 8
+    name: "Right to Contract & Associate"
+    expression: "Smart-contract system honors explicit, recorded consent; free entry and exit."
+    enforcement: "Digital covenant signatures; withdrawal triggers full equity settlement."
+
+  - pillar: 9
+    name: "Family & Lineage Protection"
+    expression: "Educational, housing, and legacy programs via 501(c)(3) secure generational continuity."
+    enforcement: "Trust-funded family endowments; KCC grants for lineage education."
+
+  - pillar: 10
+    name: "Economic Self-Sufficiency"
+    expression: "KCC token economy enables closed-loop trade; foundation equity replaces debt currency."
+    enforcement: "Non-speculative utility; treasury-gated liquidity; no external borrowing."
+
+  - pillar: 11
+    name: "Spiritual Discernment & Practice"
+    expression: "Each trust branch maintains its own rites, studies, and modes of worship."
+    enforcement: "Protected under ecclesiastical immunity; no standardization of faith."
+
+  - pillar: 12
+    name: "Covenantal Accountability"
+    expression: "Annual Reaffirmation Ceremony: trustees and members reconfirm adherence to the Twelve Pillars."
+    enforcement: "On-chain covenant renewal; public witness; automatic suspension for non-participation."
+
+---
+
+## STRUCTURAL PLACEMENT — THREE NESTED LAYERS
+
+```mermaid
+graph TD
+    subgraph "DIVINE / ECCLESIASTICAL"
+        P[Twelve Pillars<br><small>Article I — Covenant of Divine Law</small>]
+        style P fill:#fffbe6,stroke:#f28b00,stroke-width:4px
+    end
+
+    subgraph "PRIVATE / TRUST"
+        F[Wisdom Tribe Fellowship<br>KCC Treasury Trust<br>Redemption Trust<br>Wisdom Ignited Business Trust]
+        style F fill:#e6f7ff,stroke:#1890ff
+    end
+
+    subgraph "PUBLIC / COMMERCIAL"
+        C[Massey Rosupo Corporation<br>WizDevTech LLC<br>Wise Legacy Estates LLC<br>Wisdom Analytics LLC<br>Knowledge & Wisdom Amalgamation 501(c)(3)]
+        style C fill:#f6ffed,stroke:#52c41a
+    end
+
+    P -->|"Constitutional Authority"| F
+    F -->|"Stewardship & Equity"| C
+    C -->|"Service & Operations"| H[Humanity & Creation<br><small>Education • Infrastructure • Balance</small>]
+    style H fill:#e6fffb,stroke:#08979c
+
+    classDef divine fill:#fffbe6,stroke:#f28b00,font-weight:bold
+    classDef trust fill:#e6f7ff,stroke:#1890ff
+    classDef corp fill:#f6ffed,stroke:#52c41a
+    class P divine
+    class F trust
+    class C corp
