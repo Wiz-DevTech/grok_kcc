@@ -1,0 +1,12 @@
+IMPLEMENTATION DIRECTIVE
+
+# 1. Insert into ALL governing documents
+yq e '.preamble |= . + "\n\n" + $clause' -i wisdom-ignited-trust.yaml
+yq e '.preamble |= . + "\n\n" + $clause' -i kcc-treasury-charter.yaml
+yq e '.article_i = load("article-i-twelve-pillars.yaml")' -i fellowship-constitution.yaml
+
+# 2. Notarize on KCC PoA
+cast send $REGISTRY "submitConstitutionalPreamble(string,string,bytes32)" \
+  "TWELVE_PILLARS_V1" \
+  "$CID_YAML" \
+  $(cast keccak $(cat article-i-twelve-pillars.yaml))
