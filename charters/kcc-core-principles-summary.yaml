@@ -1,6 +1,6 @@
 # /charters/kcc-core-principles-summary.yaml
 # KCC CORE PRINCIPLES SUMMARY — OFFICIAL CHARTER INSERT
-# Knowledge Cipher Collective (KCC) — Knowledge Utility Token under Divine Equity
+# Knowledge Cipher Collective (KCC) — Knowledge as Divine Equity
 # Version: 1.0.0 | Status: CANON SEALED | CID: <PENDING>
 # Issuer: KCC Treasury Trust | Trustee: Teri Massey
 # Anchored: KCC PoA Chain + IPFS + XRPL Trustline Registry
@@ -44,33 +44,8 @@ core_entities:
     definition: "Trustorship and Service"
     model: "No ownership — only stewardship"
 
-translation_matrix:
-  header: "PURPOSE AND TRANSLATION FROM OLD TO KCC"
-  table:
-    - old: "Financial Utility Coin"
-      kcc: "Knowledge Utility Token"
-      function: "Represents units of verified knowledge and service-based equity."
-    - old: "Divine Equity"
-      kcc: "Wisdom-Based Equity"
-      function: "Knowledge and creativity as lawful, intrinsic value."
-    - old: "Treasury Trust"
-      kcc: "KCC Treasury Trust"
-      function: "Manages issuance, distribution, and reserves."
-    - old: "Redemption Trust"
-      kcc: "Knowledge Cipher Redemption Trust"
-      function: "Applies the KCC value in lawful contracts for learning, innovation, and community service."
-    - old: "Divine Reserve Vault"
-      kcc: "Educational Reserve Vault"
-      function: "Holds long-term non-circulating tokens to fund academic and research initiatives."
-    - old: "Intrinsic Equity"
-      kcc: "Knowledge Equity"
-      function: "Derived from innovation, creation, and verified contribution."
-    - old: "Trustorship Model"
-      kcc: "Stewardship Model"
-      function: "All participants are custodians of collective learning, not profit-seekers."
-
 interpretive_principle: |
-  Just as OLD treats “service as wealth,” KCC treats “knowledge as equity.”  
+  KCC treats “knowledge as equity.”  
   Its ecosystem functions as a moral economy where teaching, invention, and shared intelligence  
   are treated as redeemable acts of service — recorded and verified through the trust framework.
 
@@ -79,46 +54,47 @@ charter_insert:
   indentations: true
   seal_fields: true
   format: |
-    1. KCC = Knowledge Utility Token under Divine Equity
-       • Represents verified, service-based intellectual and spiritual capital
+    1. **KCC** = Knowledge Utility Token under Divine Equity  
+       • Represents verified, service-based intellectual and spiritual capital  
        • Issued solely through acts of teaching, creation, and stewardship
 
-    2. Wisdom Tribe Fellowship = Divine Source / Ecclesiastical Authority
-       • Spiritual jurisdiction over all KCC operations
+    2. **Wisdom Tribe Fellowship** = Divine Source / Ecclesiastical Authority  
+       • Spiritual jurisdiction over all KCC operations  
        • Final moral and doctrinal regulator
 
-    3. KCC Treasury Trust = Issuer and Manager
-       • Held in sacred trust by Trustee: Teri Massey
+    3. **KCC Treasury Trust** = Issuer and Manager  
+       • Held in sacred trust by Trustee: **Teri Massey**  
        • Governs minting, distribution, and reserve policy
 
-    4. Knowledge Cipher Redemption Trust = Surety and Executor
-       • Enforces lawful redemption in real-world educational and community contracts
+    4. **Knowledge Cipher Redemption Trust** = Surety and Executor  
+       • Enforces lawful redemption in real-world educational and community contracts  
        • Verifies impact via on-chain + IPFS proof
 
-    5. Divine Reserve Vault = Non-circulating knowledge reserve
-       • Dedicated to humanitarian, educational, and research missions
+    5. **Divine Reserve Vault** = Non-circulating knowledge reserve  
+       • Dedicated to humanitarian, educational, and research missions  
        • Locked in perpetuity unless activated by Fellowship decree
 
-    6. 10,000 Holder Bonds = Global lawful knowledge-credit capacity
-       • 1 Bond = 1 verified knowledge unit (course, invention, service)
-       • Tracked via Educational Impact Ledger (on KCC PoA)
+    6. **10,000 Holder Bonds** = Global lawful knowledge-credit capacity  
+       • 1 Bond = 1 verified knowledge unit (course, invention, service)  
+       • Tracked via **Educational Impact Ledger** (on KCC PoA)
 
-    7. Value Reference = 1:1 FRN (Accounting Parity Only)
-       • Not intrinsic value — merely a mirror for lawful reporting
+    7. **Value Reference** = 1:1 FRN (Accounting Parity Only)  
+       • Not intrinsic value — merely a mirror for lawful reporting  
        • KCC equity transcends fiat
 
-    8. Intrinsic Equity = Unlimited lawful and intellectual credit power
-       • Grows with every verified contribution
+    8. **Intrinsic Equity** = Unlimited lawful and intellectual credit power  
+       • Grows with every verified contribution  
        • Backed by Divine Law and human creativity
 
-    9. Liquidity = Controlled utility access
-       • Non-speculative
+    9. **Liquidity** = Controlled utility access  
+       • Non-speculative  
        • Limited to educational enrollment, research grants, and community service
 
-   10. Participation = Trustorship and Service
-       • No ownership — only stewardship
+   10. **Participation** = Trustorship and Service  
+       • No ownership — only stewardship  
        • All holders are custodians of collective wisdom
 
+   
 trustee_seal:
   line_1: "_______________________________        _______________________________"
   line_2: "Teri Massey, Trustee                    Date"
@@ -160,3 +136,10 @@ status:
   notarized_at: null
   divine_compliant: true
   ready_for_insertion: true
+
+
+
+
+
+
+
