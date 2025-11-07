@@ -1,0 +1,162 @@
+# /charters/kcc-core-principles-summary.yaml
+# KCC CORE PRINCIPLES SUMMARY — OFFICIAL CHARTER INSERT
+# Knowledge Cipher Collective (KCC) — Knowledge Utility Token under Divine Equity
+# Version: 1.0.0 | Status: CANON SEALED | CID: <PENDING>
+# Issuer: KCC Treasury Trust | Trustee: Teri Massey
+# Anchored: KCC PoA Chain + IPFS + XRPL Trustline Registry
+
+title: "KCC CORE PRINCIPLES SUMMARY"
+subtitle: "Knowledge Cipher Collective — Knowledge as Divine Equity"
+header: |
+  “Let every unit of knowledge be a covenant of service.  
+   Let every token bear witness to truth taught, truth learned, and truth applied.”
+
+core_entities:
+  - entity: "KCC"
+    definition: "Knowledge Utility Token under Divine Equity"
+    role: "Represents verified, service-based intellectual and spiritual capital"
+  - entity: "Wisdom Tribe Fellowship"
+    definition: "Divine Source / Ecclesiastical Authority"
+    role: "Spiritual jurisdiction and moral regulator of all KCC operations"
+  - entity: "KCC Treasury Trust"
+    definition: "Issuer and Manager"
+    trustee: "Teri Massey"
+    role: "Custodian of issuance, distribution, and stewardship compliance"
+  - entity: "Knowledge Cipher Redemption Trust"
+    definition: "Surety and Executor"
+    role: "Enforces lawful redemption in educational, innovation, and community contracts"
+  - entity: "Divine Reserve Vault"
+    definition: "Non-circulating knowledge reserve fund"
+    purpose: "Dedicated to humanitarian, educational, and research missions"
+  - entity: "10,000 Holder Bonds"
+    definition: "Global lawful knowledge-credit capacity"
+    function: "Educational impact ledger — 1 Bond = 1 verified knowledge unit"
+  - entity: "Value Reference"
+    definition: "1:1 FRN (Federal Reserve Note)"
+    purpose: "Accounting parity only — not intrinsic value"
+  - entity: "Intrinsic Equity"
+    definition: "Unlimited lawful and intellectual credit power"
+    source: "Derived from creation, teaching, and verified contribution"
+  - entity: "Liquidity"
+    definition: "Controlled utility access"
+    rule: "Non-speculative — limited to educational and community use"
+  - entity: "Participation"
+    definition: "Trustorship and Service"
+    model: "No ownership — only stewardship"
+
+translation_matrix:
+  header: "PURPOSE AND TRANSLATION FROM OLD TO KCC"
+  table:
+    - old: "Financial Utility Coin"
+      kcc: "Knowledge Utility Token"
+      function: "Represents units of verified knowledge and service-based equity."
+    - old: "Divine Equity"
+      kcc: "Wisdom-Based Equity"
+      function: "Knowledge and creativity as lawful, intrinsic value."
+    - old: "Treasury Trust"
+      kcc: "KCC Treasury Trust"
+      function: "Manages issuance, distribution, and reserves."
+    - old: "Redemption Trust"
+      kcc: "Knowledge Cipher Redemption Trust"
+      function: "Applies the KCC value in lawful contracts for learning, innovation, and community service."
+    - old: "Divine Reserve Vault"
+      kcc: "Educational Reserve Vault"
+      function: "Holds long-term non-circulating tokens to fund academic and research initiatives."
+    - old: "Intrinsic Equity"
+      kcc: "Knowledge Equity"
+      function: "Derived from innovation, creation, and verified contribution."
+    - old: "Trustorship Model"
+      kcc: "Stewardship Model"
+      function: "All participants are custodians of collective learning, not profit-seekers."
+
+interpretive_principle: |
+  Just as OLD treats “service as wealth,” KCC treats “knowledge as equity.”  
+  Its ecosystem functions as a moral economy where teaching, invention, and shared intelligence  
+  are treated as redeemable acts of service — recorded and verified through the trust framework.
+
+charter_insert:
+  numbering: true
+  indentations: true
+  seal_fields: true
+  format: |
+    1. KCC = Knowledge Utility Token under Divine Equity
+       • Represents verified, service-based intellectual and spiritual capital
+       • Issued solely through acts of teaching, creation, and stewardship
+
+    2. Wisdom Tribe Fellowship = Divine Source / Ecclesiastical Authority
+       • Spiritual jurisdiction over all KCC operations
+       • Final moral and doctrinal regulator
+
+    3. KCC Treasury Trust = Issuer and Manager
+       • Held in sacred trust by Trustee: Teri Massey
+       • Governs minting, distribution, and reserve policy
+
+    4. Knowledge Cipher Redemption Trust = Surety and Executor
+       • Enforces lawful redemption in real-world educational and community contracts
+       • Verifies impact via on-chain + IPFS proof
+
+    5. Divine Reserve Vault = Non-circulating knowledge reserve
+       • Dedicated to humanitarian, educational, and research missions
+       • Locked in perpetuity unless activated by Fellowship decree
+
+    6. 10,000 Holder Bonds = Global lawful knowledge-credit capacity
+       • 1 Bond = 1 verified knowledge unit (course, invention, service)
+       • Tracked via Educational Impact Ledger (on KCC PoA)
+
+    7. Value Reference = 1:1 FRN (Accounting Parity Only)
+       • Not intrinsic value — merely a mirror for lawful reporting
+       • KCC equity transcends fiat
+
+    8. Intrinsic Equity = Unlimited lawful and intellectual credit power
+       • Grows with every verified contribution
+       • Backed by Divine Law and human creativity
+
+    9. Liquidity = Controlled utility access
+       • Non-speculative
+       • Limited to educational enrollment, research grants, and community service
+
+   10. Participation = Trustorship and Service
+       • No ownership — only stewardship
+       • All holders are custodians of collective wisdom
+
+trustee_seal:
+  line_1: "_______________________________        _______________________________"
+  line_2: "Teri Massey, Trustee                    Date"
+  line_3: "KCC Treasury Trust                      Wisdom Tribe Fellowship"
+  notary_block: |
+    Notarized this ___ day of _______________, 2025
+    [Notary Seal]
+
+# === ON-CHAIN & IPFS ANCHOR ===
+notarization:
+  registry_function: |
+    await registry.submitKCCPrinciples(
+      "KCC_PRINCIPLES_V1",
+      CID_YAML,
+      CID_PDF_SIGNED,
+      keccak256(charter_text)
+    );
+  ipfs_dual_pin:
+    - "YAML config → CID"
+    - "Signed PDF Charter Insert → CID"
+  xrpl_trustline: "KCC Treasury ↔ Redemption Trust"
+
+# === RENDER TO PDF (PANDOC) ===
+render_command: |
+  pandoc kcc-core-principles.md \
+    --pdf-engine=xelatex \
+    -V geometry:margin=1in \
+    -V fontsize=11pt \
+    -V mainfont="Garamond" \
+    -o /ipfs/kcc-core-principles-v1.pdf
+
+status:
+  version: "1.0.0"
+  state: "CANON SEALED"
+  cid_yaml: "<PENDING>"
+  cid_pdf: "<PENDING>"
+  charter_hash: "<PENDING>"
+  issued_by: "Teri Massey"
+  notarized_at: null
+  divine_compliant: true
+  ready_for_insertion: true
