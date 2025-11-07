@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     subgraph "Divine & Lawful Jurisdiction"
         A[Divine Law<br>God owns all; Man is steward<br>Wisdom Tribe Fellowship<br>Ecclesiastical Authority]
