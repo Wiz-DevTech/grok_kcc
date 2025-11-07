@@ -1,0 +1,130 @@
+# /charters/kcc-foundation-equity-summary.yaml
+# KCC CORE PRINCIPLES SUMMARY — FOUNDATION AS EQUITY
+# Knowledge Cipher Collective (KCC) — Foundation Equity Token under Divine Stewardship
+# Version: 1.0.0 | Status: CANON SEALED | CID: <PENDING>
+# Issuer: KCC Treasury Trust | Custodian: Massey Trust Network
+# Anchored: KCC PoA Chain + IPFS + XRPL Trustline Registry + Foundation Asset Ledger
+
+title: "KCC CORE PRINCIPLES SUMMARY"
+subtitle: "Foundation as Equity — The Living Foundation System"
+header: |
+  “Let every token be a pillar.  
+   Let every foundation stand as equity.  
+   Let stewardship be the only claim.”
+
+core_system_hierarchy:
+  spheres:
+    - sphere: "Spiritual"
+      entity: "Wisdom Tribe Fellowship"
+      function: "Ecclesiastical Authority, Source of Lawful Purpose"
+      jurisdiction: "Divine / Ecclesiastical Law"
+    - sphere: "Stewardship"
+      entity: "Wisdom Ignited Business Trust"
+      function: "Asset Custodian; Holds tangible and digital foundations"
+      jurisdiction: "Private Trust Law"
+    - sphere: "Commercial"
+      entity: "Massey Rosupo Corporation + LLCs"
+      function: "Executes contracts, manages physical and digital foundations"
+      jurisdiction: "Corporate Law"
+    - sphere: "Service"
+      entity: "Knowledge & Wisdom Amalgamation (501c3)"
+      function: "Distributes grants, manages public-benefit programs"
+      jurisdiction: "Public Benefit / IRS 501(c)(3)"
+    - sphere: "Outreach"
+      entity: "Wisdom Academy"
+      function: "Education & social innovation through foundation training"
+      jurisdiction: "Ecclesiastical / Nonprofit"
+    - sphere: "Economic"
+      entity: "KCC Token Treasury Trust"
+      function: "Foundation Equity Issuance; governs treasury and liquidity"
+      jurisdiction: "Private Ecclesiastical Finance"
+
+concept_shift:
+  header: "CONCEPT SHIFT: FROM KNOWLEDGE TO FOUNDATION"
+  table:
+    - aspect: "Value Source"
+      knowledge_model: "Verified contribution or teaching"
+      foundation_model: "Tangible & digital foundations: land, IP, infrastructure"
+    - aspect: "Economic Principle"
+      knowledge_model: "“Knowledge as Equity”"
+      foundation_model: "“Foundations as Equity” — each token reflects the preservation or creation of a base of value"
+    - aspect: "Redemption"
+      knowledge_model: "Recognition of knowledge-service"
+      foundation_model: "Allocation or participation in foundation development, property, or infrastructure"
+    - aspect: "Trust Purpose"
+      knowledge_model: "Education and creative contribution"
+      foundation_model: "Long-term stewardship and intergenerational resource continuity"
+    - aspect: "Ledger Proof"
+      knowledge_model: "Learning verification"
+      foundation_model: "Asset registry and foundational contribution proofs"
+    - aspect: "Intrinsic Equity"
+      knowledge_model: "Lawful knowledge credit"
+      foundation_model: "Lawful foundation equity"
+
+core_features:
+  - "KCC = Foundation Equity Token under Divine Equity"
+  - "Wisdom Tribe Fellowship = Ecclesiastical Authority / Source"
+  - "KCC Treasury Trust = Issuer and Custodian"
+  - "Massey Redemption Trust = Surety and Executor"
+  - "Divine Reserve Vault I = 1.11B KCC — Non-circulating foundation reserve"
+  - "10,000 Holder Bonds = $1.11 Quadrillion lawful foundation equity capacity"
+  - "Value Reserve Vault II = 50B KCC reserved for humanitarian & infrastructure projects"
+  - "Value Reference = 1:1 FRN (for accounting equivalence only)"
+  - "Intrinsic Equity = Unlimited lawful foundation building capacity"
+  - "Liquidity = Controlled utility access; non-speculative, community & project based"
+  - "Participation = Stewardship and Service; no ownership claim, only custodianship"
+
+comparative_framework:
+  header: "COMPARATIVE FRAMEWORK (XRP → SHC → KCC)"
+  table:
+    - feature: "Backing"
+      xrp: "None (free floating)"
+      shc: "Divine Equity & Trust System"
+      kcc: "Foundation Assets & Divine Stewardship"
+    - feature: "Issuer"
+      xrp: "Ripple Ledger"
+      shc: "SHC Treasury Trust"
+      kcc: "KCC Treasury Trust (via Wisdom Ignited Business Trust)"
+    - feature: "Value Basis"
+      xrp: "Utility & Consensus"
+      shc: "Lawful Service & Redemption"
+      kcc: "Foundation Equity & Infrastructure Stewardship"
+    - feature: "Stability"
+      xrp: "Algorithmic"
+      shc: "Trust-line control"
+      kcc: "Foundation backing + Ecclesiastical treasury reserve"
+    - feature: "Purpose"
+      xrp: "Inter-bank liquidity"
+      shc: "Inter-trust service settlement"
+      kcc: "Inter-foundation & inter-trust asset coordination"
+
+interpretive_principle: |
+  Where SHC represents Service as Wealth, KCC represents **Foundation as Equity**.  
+  Each KCC token reflects a living foundation—a lawful pillar of creation, education, and infrastructure.  
+  Ownership is replaced by stewardship; speculation replaced by stability; and profit replaced by purpose.  
+  The Treasury Trust and Redemption Trust act as the lawful balance between divine intent and human activity,  
+  ensuring all expansion remains within spiritual law and lawful governance.
+
+charter_insert:
+  numbering: true
+  indentations: true
+  seal_fields: true
+  format: |
+    1. **KCC** = Foundation Equity Token under Divine Equity  
+       • Represents proportional equity in living foundations: land, infrastructure, IP, and spiritual capital  
+       • Issued only through stewardship, construction, or preservation of foundation assets
+
+    2. **Wisdom Tribe Fellowship** = Ecclesiastical Authority / Source  
+       • Sole source of divine jurisdiction over KCC and all foundation activities  
+       • Final arbiter of purpose and alignment
+
+    3. **KCC Treasury Trust** = Issuer and Custodian  
+       • Held by the **Massey Trust Network**  
+       • Governs issuance, treasury reserves, and foundation-backed liquidity
+
+    4. **Massey Redemption Trust** = Surety and Executor  
+       • Ensures lawful redemption into real-world foundation projects  
+       • Verifies asset contribution via on-chain registry and IPFS proofs
+
+    5. **Divine Reserve Vault I** = 1.11B KCC  
+       • Non-circulating foundation reserve
